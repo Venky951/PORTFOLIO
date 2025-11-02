@@ -18,3 +18,31 @@ body{
     background-position: center;
 
 }
+.second{
+    text-transform: capitalize;
+    padding: 15px 10%;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav h2{
+    font-size: 2em;
+    letter-spacing: 2px;
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 15px 20px;
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
