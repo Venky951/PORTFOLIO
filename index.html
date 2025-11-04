@@ -33,29 +33,87 @@
     </div>
 </div>
 
-
+<!-- ----------about---------------->
 <div id="about">
     <div class="container">
         <div class="row">
     <div class="about-col-1">
-        <img src="venky photo.jpeg" alt="venkatesh" style="width: 350px; height: 600px; border-radius: 15px;">
+        <img src="venky photo.jpeg" alt="venkatesh" style="width: 350px; height: 450px; border-radius: 15px; margin-top: 20px;">
     </div>
      <div class="about-col-2">
-        <h1 class="sub-title">About Me</h1>
+        <h2 class="sub-title">About Me</h2>
     <p>I am a passionate Electronics and Communication Engineering (ECE) student at NIT Srinagar with a strong interest in frontend development. I enjoy building user-friendly and responsive web applications using technologies like HTML, CSS, JavaScript, and React.
 </p><br>
 <p>Although I haven't done any internships yet, I have worked on several personal and academic projects that have helped me strengthen my problem-solving and coding skills. I am eager to learn new technologies, collaborate on exciting projects, and grow as a frontend developer. Looking forward to opportunities where I can apply my skills and contribute to impactful projects.</p>
     <div class="tab-titles">
-    <p class="tab-links active-links">Skills</p>
-    <p class="tab-links">Experience</p>
-    <p class="tab-links">Education</p>
+    <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+    <p class="tab-links" onclick="opentab('education')">Education</p>
+    <p class="tab-links" onclick="opentab('experience')">Experience</p>
     </div>
+    <div class="tab-contents active-tab" id="skills">
+        <h3 style="color: #b54769; font-size: 25px; margin-bottom: 10px;">Frotend Web Development</h3>
+        <ul>
+            
+            <li><strong >Frotend :</strong> HTML,CSS,JavaScript,React,Bootstrap</li>
+            <li><strong>Backend :</strong> Node.js,Express.js</li>
+            <li><strong>Database :</strong> MongoDB,MySQL</li>
+            <li><strong>Tools :</strong> Git,GitHub,Vs Code</li>
+        </ul>
+    </div>
+     <div class="tab-contents" id="education">
+        <p>
+            <b>National Institute Of Technology</b> ,jammu and kashmir <span style="float: right; color: #b54769;">2024-2028</span>
+        </p>
+        <p>B.Tech(Electronics and Communication Engineering )</p>
+        <p><b>Vagdevi junior college</b>, Telangana <span style="float: right; color:#b54769;">2022-2024</span></p>
+        <p>Higher Secondary School <span style="float: right;color: #b54769;">Percentage : 95%</span></p>
+        <P><b>TTWURJC</b>,Telangana <span style="float: right;color: #b54769;">2022</span></P>
+        <p>Secondary School <span style="float: right;color: #b54769;">Percentage : 88%</span></p>
+        </div>
+         <div class="tab-contents" id="experience">
+        <h3 style="color: #b54769; font-size: 25px; margin-bottom: 10px;">Frotend Web Development</h3>
+        <ul>
+            
+            <li><strong >Frotend :</strong> HTML,CSS,JavaScript,React,Bootstrap</li>
+            <li><strong>Backend :</strong> Node.js,Express.js</li>
+            <li><strong>Database :</strong> MongoDB,MySQL</li>
+            <li><strong>Tools :</strong> Git,GitHub,Vs Code</li>
+        </ul>
+         </div>
     </div>
 </div>
 
 </div>
 </div>
+<!----------------service------------->
+<div id="services" style="padding: 15px 10%;">
+<div class="container">
+    <h2 class="sub-title">My Services</h2>
+    <div class="services-list">
+      <div>
 
+            <h3>Web Design</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste ullam nostrum mollitia nulla reprehenderit assumenda est, magnam incidunt. Optio, hic!
+            </p>
+            <a href="#">Learn more</a>
+        </div>
+         <div>
+
+            <h3>UI/UX Design</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste ullam nostrum mollitia nulla reprehenderit assumenda est, magnam incidunt. Optio, hic!
+            </p>
+            <a href="#">Learn more</a>
+        </div>
+         <div>
+
+            <h3>App Design</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste ullam nostrum mollitia nulla reprehenderit assumenda est, magnam incidunt. Optio, hic!
+            </p>
+            <a href="#">Learn more</a>
+        </div>
+    </div>
+</div>
+</div>
     <script src="script.js"></script>
 </body>
 </html>
