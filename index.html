@@ -7,6 +7,7 @@
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a04449cb92.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 
 <body>
@@ -14,20 +15,25 @@
         <div class="second">
             <nav>
                 <h2><span style="color: red;">V</span>ENKATESH.</h2>
-                <UL>
+                <UL id="sidemenu">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#first">Home</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="#services">Services</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </UL>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="third">
                 <p>Full-Stack Developer </p>
@@ -95,7 +101,7 @@
                             <li><strong>Amazon Clone :</strong> Built a fully responsive e-commerce website inspired by
                                 Amazon’s design and functionality. The project replicates core features such as product
                                 listings, navigation bar, shopping cart interface, and responsive layout..</li>
-
+                        </ul>
 
                     </div>
                 </div>
@@ -135,6 +141,7 @@
             </div>
         </div>
     </div>
+    <!-- ----------portfolio---------------->
     <div id="portfolio">
         <div class="container">
             <h1 class="sub-title">My Work</h1>
@@ -146,7 +153,7 @@
                         <p>Built a fully responsive e-commerce website inspired by Amazon’s design and functionality.
                             The project replicates core features such as product listings, navigation bar, shopping cart
                             interface, and responsive layout.</p>
-                        <a href="#"></a>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -168,10 +175,40 @@
                 </div>
 
             </div>
+            <a href="#" class="btn">See more</a>
         </div>
 
     </div>
-
+    <!-- ----------contact me---------------->
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> malothvenky12@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91 9320623901</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Resume3.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Venkatesh Maloth. All rights reserved.</p>
+        </div>
     </div>
 
     <script src="script.js"></script>
