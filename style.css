@@ -31,12 +31,25 @@ body {
 
 }
 
+/* --- Sticky Navbar --- */
+
+
+
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #080808;
+}
+
 
 nav h2 {
     font-size: 2em;
@@ -57,6 +70,10 @@ nav ul li a {
     font-size: 1em;
 
     position: relative;
+}
+
+nav ul li a.active {
+    color: #ff004f;
 }
 
 nav ul li a::after {
